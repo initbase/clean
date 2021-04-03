@@ -2,7 +2,8 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/components/theme.scss',
+  // entry: './src/components/theme.scss',
+  entry: './dist/themes.css',
   output: {
     filename: 'style.css',
     path: path.resolve(__dirname, 'dist'),

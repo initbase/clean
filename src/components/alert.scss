@@ -1,0 +1,45 @@
+.alert {
+  @apply relative p-4 mb-4 border rounded border-transparent;
+}
+
+.alert-link {
+  @apply font-bold border-b;
+}
+
+.alert-primary, .alert-primary .alert-link {
+  @apply bg-primary-500 text-gray-100 !important;
+}
+
+.alert-secondary {
+  @apply bg-gray-500 text-gray-800;
+}
+
+.alert-secondary .alert-link,
+.alert-light .alert-link,
+.alert-info .alert-link,
+.alert-warning .alert-link {
+  @apply text-gray-800 border-gray-800 !important;
+}
+
+.alert-light {
+  @apply bg-gray-100 text-gray-800;
+}
+.alert-dark, .alert-dark .alert-link {
+  @apply bg-gray-800 text-gray-100 !important;
+}
+
+.alert-success, .alert-success .alert-link {
+  @apply bg-green-500 text-gray-100 !important;
+}
+
+.alert-danger, .alert-danger .alert-link {
+  @apply bg-red-500 text-gray-100 !important;
+}
+
+.alert-warning, .alert-warning .alert-link {
+  @apply bg-yellow-400 text-gray-800 !important;
+}
+
+.alert-info, .alert-info .alert-link {
+  @apply bg-blue-400 text-gray-800 !important;
+}

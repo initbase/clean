@@ -1,0 +1,20 @@
+{
+  "name": "clean-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "tailwindo": "npx tailwindo --components=true --recursive=true --extensions=html src/html/"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.10.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "nuxt": "^2.15.2"
+  },
+  "devDependencies": {
+    "tailwindo": "^1.0.5"
+  }
+}

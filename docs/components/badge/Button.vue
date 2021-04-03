@@ -5,6 +5,6 @@
 </template>
 
 <style scoped>
-@import '../../../src/components/badge.scss';
-@import '../../../src/components/button.scss';
+@import '../../../src/components/_badge.scss';
+@import '../../../src/components/_button.scss';
 </style>

@@ -28,5 +28,5 @@
 </template>
 
 <style scoped>
-@import '../../../src/components/alert.scss';
+@import '../../../src/components/_alert.scss';
 </style>

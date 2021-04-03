@@ -1,0 +1,90 @@
+.alert {
+  @apply relative p-4 mb-4 border rounded border-transparent;
+}
+
+.alert-link {
+  @apply font-bold border-b;
+}
+
+.alert-primary, .alert-primary .alert-link {
+  @apply bg-blue-500 text-gray-100 !important;
+}
+
+.alert-secondary {
+  @apply bg-gray-500 text-gray-800;
+}
+
+.alert-secondary .alert-link,
+.alert-light .alert-link,
+.alert-info .alert-link,
+.alert-warning .alert-link {
+  @apply text-gray-800 border-gray-800 !important;
+}
+
+.alert-light {
+  @apply bg-gray-100 text-gray-800;
+}
+.alert-dark, .alert-dark .alert-link {
+  @apply bg-gray-800 text-gray-100 !important;
+}
+
+.alert-success, .alert-success .alert-link {
+  @apply bg-green-500 text-gray-100 !important;
+}
+
+.alert-danger, .alert-danger .alert-link {
+  @apply bg-red-500 text-gray-100 !important;
+}
+
+.alert-warning, .alert-warning .alert-link {
+  @apply bg-yellow-400 text-gray-800 !important;
+}
+
+.alert-info, .alert-info .alert-link {
+  @apply bg-blue-400 text-gray-800 !important;
+}
+
+.alert-border {
+  @apply my-2 border-gray-100 !important;
+}
+
+.alert-heading {
+  @apply text-2xl font-bold mb-2;
+}
+
+.alert-dismissible {
+  @apply pr-12;
+}
+
+.btn-close {
+  @apply rounded border-0 box-content h-4 w-4;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+.alert-dismissible .btn-close {
+  @apply absolute top-0 right-0 z-10 p-4;
+}
+
+.fade {
+  @apply transition-opacity duration-500 ease-in-out opacity-0;
+}
+
+.show {
+  @apply opacity-100;
+}.badge {
+  @apply inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded;
+}
+
+.rounded-pill {
+  @apply rounded-full;
+}.btn {
+  @apply inline-block align-middle text-center select-none font-normal whitespace-nowrap py-2 px-4 rounded text-base leading-normal no-underline;
+}
+
+.btn-primary {
+  @apply  text-blue-100 bg-blue-600 !important;
+  &:hover {
+    @apply bg-blue-700 !important;
+  }
+}
+

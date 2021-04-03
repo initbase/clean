@@ -10,5 +10,5 @@
 </template>
 
 <style scoped>
-@import '../../../src/components/badge.scss';
+@import '../../../src/components/_badge.scss';
 </style>

@@ -1,0 +1,10 @@
+.btn {
+  @apply inline-block align-middle text-center select-none font-normal whitespace-nowrap py-2 px-4 rounded text-base leading-normal no-underline;
+}
+
+.btn-primary {
+  @apply  text-blue-100 bg-blue-600 !important;
+  &:hover {
+    @apply bg-blue-700 !important;
+  }
+}

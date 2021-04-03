@@ -6,8 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "tailwindo": "npx tailwindo --components=true --recursive=true --extensions=html src/html/"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.10.1",

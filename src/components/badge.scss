@@ -1,0 +1,7 @@
+.badge {
+  @apply inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded;
+}
+
+.rounded-pill {
+  @apply rounded-full;
+}

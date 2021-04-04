@@ -1,0 +1,6 @@
+.card {
+  @apply relative flex flex-col min-w-0 rounded break-words border bg-transparent border border-gray-300;
+}
+.card-body {
+  @apply flex-auto p-6;
+}

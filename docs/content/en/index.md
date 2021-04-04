@@ -13,7 +13,7 @@ features:
 <img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
 <img src="/preview.png" class="dark-img" width="1280" height="640" alt=""/>
 
-An opiniated Bootstrap component classes CSS powered by TailwindCSS.
+An opinionated "Bootstrap like" component classes CSS powered by TailwindCSS.
 
 ## Features
 

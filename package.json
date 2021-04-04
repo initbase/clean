@@ -1,7 +1,20 @@
 {
-  "name": "clean-ui",
+  "name": "@initbase/clean-ui",
   "version": "1.0.0",
-  "private": true,
+  "description": "An opinionated \"Bootstrap like\" component classes CSS powered by TailwindCSS.",
+  "license": "MIT",
+  "style": "dist/themes.css",
+  "repository": "https://github.com/initbase/clean.git",
+  "bugs": "https://github.com/initbase/clean/issues",
+  "homepage": "https://cleanui.netlify.app/",
+  "private": false,
+  "contributors": [
+    "Burhanuddin Ahmed <burhanahmeed@gmail.com>"
+  ],
+  "files": [
+    "dist/*.css",
+    "dist/*.scss"
+  ],
   "scripts": {
     "docs:generate": "cd docs && yarn && yarn generate",
     "bundle": "npx bundle-scss -m \"./src/**/theme.scss\" -d \"./dist/themes.scss\"",
@@ -13,6 +26,7 @@
     "bundle-scss": "^1.5.0"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
     "css-loader": "^5.2.0",
     "cssnano": "^4.1.10",

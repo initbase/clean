@@ -7,17 +7,14 @@
 }
 
 .alert-primary, .alert-primary .alert-link {
-  @apply bg-blue-500 text-gray-100 !important;
+  @apply bg-primary-500 text-primary-100 !important;
 }
 
-.alert-secondary {
-  @apply bg-gray-500 text-gray-800;
+.alert-secondary, .alert-secondary .alert-link {
+  @apply bg-secondary-500 text-secondary-100;
 }
 
-.alert-secondary .alert-link,
-.alert-light .alert-link,
-.alert-info .alert-link,
-.alert-warning .alert-link {
+.alert-light .alert-link {
   @apply text-gray-800 border-gray-800 !important;
 }
 
@@ -29,19 +26,19 @@
 }
 
 .alert-success, .alert-success .alert-link {
-  @apply bg-green-500 text-gray-100 !important;
+  @apply bg-success-500 text-success-100 !important;
 }
 
 .alert-danger, .alert-danger .alert-link {
-  @apply bg-red-500 text-gray-100 !important;
+  @apply bg-danger-500 text-danger-100 !important;
 }
 
 .alert-warning, .alert-warning .alert-link {
-  @apply bg-yellow-400 text-gray-800 !important;
+  @apply bg-warning-500 text-warning-100 !important;
 }
 
 .alert-info, .alert-info .alert-link {
-  @apply bg-blue-400 text-gray-800 !important;
+  @apply bg-info-500 text-info-100 !important;
 }
 
 .alert-border {
@@ -78,13 +75,116 @@
 .rounded-pill {
   @apply rounded-full;
 }.btn {
-  @apply inline-block align-middle text-center select-none font-normal whitespace-nowrap py-2 px-4 rounded text-base leading-normal no-underline;
+  @apply inline-block align-middle text-center select-none font-normal py-2 px-4 rounded text-base leading-normal no-underline;
 }
 
 .btn-primary {
-  @apply  text-blue-100 bg-blue-600 !important;
+  @apply  text-primary-100 bg-primary-500 !important;
   &:hover {
-    @apply bg-blue-700 !important;
+    @apply bg-primary-600 !important;
   }
 }
+.btn-secondary {
+  @apply  text-secondary-100 bg-secondary-500 !important;
+  &:hover {
+    @apply bg-secondary-600 !important;
+  }
+}
+.btn-success {
+  @apply  text-success-100 bg-success-500 !important;
+  &:hover {
+    @apply bg-success-600 !important;
+  }
+}
+.btn-danger {
+  @apply  text-danger-100 bg-danger-500 !important;
+  &:hover {
+    @apply bg-danger-600 !important;
+  }
+}
+.btn-warning {
+  @apply  text-warning-100 bg-warning-500 !important;
+  &:hover {
+    @apply bg-warning-600 !important;
+  }
+}
+.btn-info {
+  @apply  text-info-100 bg-info-500 !important;
+  &:hover {
+    @apply bg-info-600 !important;
+  }
+}
+.btn-link {
+  @apply text-blue-500 underline !important;
+}
+.btn-outline-primary {
+  @apply border border-primary-500 text-primary-500; 
+  &:hover {
+    @apply bg-primary-500 text-primary-100 !important;
+  }
+}
+.btn-outline-secondary {
+  @apply border border-secondary-500 text-secondary-500; 
+  &:hover {
+    @apply bg-secondary-500 text-secondary-100 !important;
+  }
+}
+.btn-outline-success {
+  @apply border border-success-500 text-success-500; 
+  &:hover {
+    @apply bg-success-500 text-success-100 !important;
+  }
+}
+.btn-outline-danger {
+  @apply border border-danger-500 text-danger-500; 
+  &:hover {
+    @apply bg-danger-500 text-danger-100 !important;
+  }
+}
+.btn-outline-warning {
+  @apply border border-warning-500 text-warning-500; 
+  &:hover {
+    @apply bg-warning-500 text-warning-100 !important;
+  }
+}
+.btn-outline-info {
+  @apply border border-info-500 text-info-500; 
+  &:hover {
+    @apply bg-info-500 text-info-100 !important;
+  }
+}
+.btn-lg {
+  @apply text-lg;
+}
+.btn-sm {
+  @apply text-xs;
+}.card {
+  @apply relative flex flex-col min-w-0 rounded break-words border bg-transparent border border-gray-300;
+}
+.card-body {
+  @apply flex-auto p-6;
+}
+.card-title {
+  @apply mb-2 text-lg font-medium leading-tight;
+}
+.card-header, .card-footer {
+  @apply py-3 px-6 mb-0 bg-gray-200 border-b border-gray-200 text-gray-800;
+}
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+blockquote {
+  margin: 0 0 1rem;
+}
+.blockquote-footer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: .875em;
+  color: #6c757d;
+}
+.blockquote-footer::before {
+  content: "— ";
+}
+
 

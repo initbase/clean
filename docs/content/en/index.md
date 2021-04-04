@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: 'An opinionated Bootstrap component classes CSS powered by TailwindCSS.'
+description: 'An opinionated "Bootstrap like" component classes CSS powered by TailwindCSS.'
 position: 1
 category: ''
 features:

@@ -4,3 +4,25 @@
 .card-body {
   @apply flex-auto p-6;
 }
+.card-title {
+  @apply mb-2 text-lg font-medium leading-tight;
+}
+.card-header, .card-footer {
+  @apply py-3 px-6 mb-0 bg-gray-200 border-b border-gray-200 text-gray-800;
+}
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+blockquote {
+  margin: 0 0 1rem;
+}
+.blockquote-footer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: .875em;
+  color: #6c757d;
+}
+.blockquote-footer::before {
+  content: "— ";
+}

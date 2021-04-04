@@ -7,17 +7,14 @@
 }
 
 .alert-primary, .alert-primary .alert-link {
-  @apply bg-blue-500 text-gray-100 !important;
+  @apply bg-primary-500 text-primary-100 !important;
 }
 
-.alert-secondary {
-  @apply bg-gray-500 text-gray-800;
+.alert-secondary, .alert-secondary .alert-link {
+  @apply bg-secondary-500 text-secondary-100;
 }
 
-.alert-secondary .alert-link,
-.alert-light .alert-link,
-.alert-info .alert-link,
-.alert-warning .alert-link {
+.alert-light .alert-link {
   @apply text-gray-800 border-gray-800 !important;
 }
 
@@ -29,19 +26,19 @@
 }
 
 .alert-success, .alert-success .alert-link {
-  @apply bg-green-500 text-gray-100 !important;
+  @apply bg-success-500 text-success-100 !important;
 }
 
 .alert-danger, .alert-danger .alert-link {
-  @apply bg-red-500 text-gray-100 !important;
+  @apply bg-danger-500 text-danger-100 !important;
 }
 
 .alert-warning, .alert-warning .alert-link {
-  @apply bg-yellow-400 text-gray-800 !important;
+  @apply bg-warning-500 text-warning-100 !important;
 }
 
 .alert-info, .alert-info .alert-link {
-  @apply bg-blue-400 text-gray-800 !important;
+  @apply bg-info-500 text-info-100 !important;
 }
 
 .alert-border {

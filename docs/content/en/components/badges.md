@@ -27,7 +27,7 @@ You can modify the background color and text color using Tailwind utility classe
 
 ```html
 <span class="badge bg-primary-500">Primary</span>
-<span class="badge bg-secondary">Secondary</span>
+<span class="badge bg-secondary-500">Secondary</span>
 <span class="badge bg-green-500">Success</span>
 <span class="badge bg-red-500">Danger</span>
 <span class="badge bg-yellow-400 text-gray-800">Warning</span>
@@ -43,7 +43,7 @@ Use the .rounded-pill utility class to make badges more rounded with a larger bo
 
 ```html
 <span class="badge rounded-pill bg-primary-500">Primary</span>
-<span class="badge rounded-pill bg-secondary">Secondary</span>
+<span class="badge rounded-pill bg-secondary-500">Secondary</span>
 <span class="badge rounded-pill bg-green-500">Success</span>
 <span class="badge rounded-pill bg-red-500">Danger</span>
 <span class="badge rounded-pill bg-yellow-400 text-gray-800">Warning</span>

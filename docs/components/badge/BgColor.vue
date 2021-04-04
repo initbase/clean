@@ -1,7 +1,7 @@
 <template>
   <div>
     <span class="badge bg-primary-500">Primary</span>
-    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-secondary-500">Secondary</span>
     <span class="badge bg-green-500">Success</span>
     <span class="badge bg-red-500">Danger</span>
     <span class="badge bg-yellow-400 text-gray-800">Warning</span>

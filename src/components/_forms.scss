@@ -1,0 +1,21 @@
+.form-label {
+  @apply mb-2 inline-block font-medium py-1;
+}
+.form-control {
+  @apply block appearance-none w-full py-1 px-2 mb-2 text-base leading-normal bg-transparent text-gray-800 border border-gray-500 rounded;
+}
+.form-control-lg {
+  @apply text-lg px-4 py-2;
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.form-control-sm {
+  @apply px-2 py-1;
+  min-height: calc(1.5em + .5rem + 2px);
+}
+.form-control:disabled, .form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+.form-control-plaintext {
+  @apply block w-full py-1 leading-6 bg-transparent 
+}

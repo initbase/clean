@@ -5,7 +5,9 @@ position: 2
 category: Guide
 ---
 
-No more configuration needed just follow [__Tailwind installation guide__](https://tailwindcss.com/docs/installation#integration-guides). Clean UI is built on top of TailwiindCSS.
+No more configuration needed just follow [__Tailwind installation guides__](https://tailwindcss.com/docs/installation#integration-guides). Clean UI is built on top of TailwiindCSS.
+
+Component classes are following Bootstrap V5.0+ standard.
 
 ## Setup
 

@@ -35,7 +35,11 @@ module.exports = {
           '600': '#2563EB'
         }
       }
-    }
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

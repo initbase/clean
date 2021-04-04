@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "docs:generate": "cd docs && yarn generate",
+    "docs:generate": "cd docs && yarn && yarn generate",
     "bundle": "npx bundle-scss -m \"./src/**/theme.scss\" -d \"./dist/themes.scss\"",
     "scss": "node-sass \"./src\" -o \"./dist\"",
     "tailwind:build": "npx tailwind build ./dist/themes.scss -o ./dist/themes.css",

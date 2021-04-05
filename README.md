@@ -1,28 +1,4 @@
-# clean-nuxt
+<img src="docs/static/preview.png" class="light-img" width="1280" height="640" alt=""/>
 
-## Setup
+[![size](https://badgen.net/bundlephobia/minzip/initbase/clean)](https://bundlephobia.com/result?p=initbase/clean) ![npm](https://img.shields.io/npm/dt/initbase/clean)
 
-Install dependencies:
-
-```bash
-yarn install
-```
-
-## Development
-
-```bash
-yarn dev
-```
-
-## Static Generation
-
-This will create the `dist/` directory for publishing to static hosting:
-
-```bash
-yarn generate
-```
-
-To preview the static generated app, run `yarn start`
-
-For detailed explanation on how things work, checkout [nuxt/content](https://content.nuxtjs.org) and [@nuxt/content theme docs](https://content.nuxtjs.org/themes-docs).
-# clean

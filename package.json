@@ -1,11 +1,16 @@
 {
-  "name": "@initbase/clean-ui",
+  "name": "initbase-clean-ui",
   "version": "1.0.0",
   "description": "An opinionated \"Bootstrap like\" component classes CSS powered by TailwindCSS.",
   "license": "MIT",
   "style": "dist/themes.css",
-  "repository": "https://github.com/initbase/clean.git",
-  "bugs": "https://github.com/initbase/clean/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initbase/clean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/initbase/clean/issues"
+  },
   "homepage": "https://cleanui.netlify.app/",
   "private": false,
   "contributors": [
@@ -38,5 +43,15 @@
     "tailwindcss": "^2.0.4",
     "webpack": "^5.30.0",
     "webpack-cli": "^4.6.0"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "Burhanuddin Ahmed <burhanahmeed@gmail.com>",
+  "keywords": [
+    "tailwind",
+    "bootstrap",
+    "UI",
+    "design systems"
+  ]
 }

@@ -1,4 +1,4 @@
-docs/
+docs
 tailwind.config.js
 postcss.config.js
 webpack.config.js

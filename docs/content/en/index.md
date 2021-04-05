@@ -10,6 +10,8 @@ features:
   - Less configuration
 ---
 
+<shadow-component></shadow-component>
+
 <img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
 <img src="/preview.png" class="dark-img" width="1280" height="640" alt=""/>
 

@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
-  darkMode: true,
+  darkMode: 'nothing',
   theme: {
     extend: {
       colors: {
@@ -63,6 +63,25 @@ module.exports = {
           paddingTop: '1rem',
         },
       })
-    })
+    }),
+    plugin(function ({ addVariant, prefix, e }) {
+      addVariant('dark', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.${e(`${className}`)}`
+        })
+      })
+
+      addVariant('dark-hover', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.dark-mode .${e(`dark-hover${separator}${className}`)}:hover`
+        })
+      })
+
+      addVariant('dark-focus', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.dark-mode .${e(`dark-focus${separator}${className}`)}:focus`
+        })
+      })
+    }),
   ]
 }

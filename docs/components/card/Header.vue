@@ -11,6 +11,6 @@
   </div>
 </template>
 <style scoped>
-@import '../../../src/components/_card.scss';
-@import '../../../src/components/_button.scss';
+@import '../../../src/components/_card.css';
+@import '../../../src/components/_button.css';
 </style>

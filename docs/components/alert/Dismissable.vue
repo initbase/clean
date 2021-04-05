@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-@import '../../../src/components/_alert.scss';
+@import '../../../src/components/_alert.css';
 strong {
   color: initial !important;
 }

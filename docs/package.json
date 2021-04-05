@@ -11,8 +11,7 @@
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.10.1",
     "@tailwindcss/typography": "^0.4.0",
-    "nuxt": "^2.15.2",
-    "tailwind": "^4.0.0"
+    "nuxt": "^2.15.2"
   },
   "devDependencies": {
     "tailwindo": "^1.0.5"

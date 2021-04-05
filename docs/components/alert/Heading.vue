@@ -8,5 +8,5 @@
 </template>
 
 <style scoped>
-@import '../../../src/components/_alert.scss';
+@import '../../../src/components/_alert.css';
 </style>

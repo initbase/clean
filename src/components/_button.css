@@ -8,74 +8,78 @@
     @apply bg-primary-600 !important;
   }
 }
+.btn-primary:hover {
+  @apply bg-primary-600 !important;
+}
+
 .btn-secondary {
   @apply  text-secondary-100 bg-secondary-500 !important;
-  &:hover {
-    @apply bg-secondary-600 !important;
-  }
+}
+.btn-secondary:hover {
+  @apply bg-secondary-600 !important;
 }
 .btn-success {
   @apply  text-success-100 bg-success-500 !important;
-  &:hover {
-    @apply bg-success-600 !important;
-  }
+}
+.btn-success:hover {
+  @apply bg-success-600 !important;
 }
 .btn-danger {
   @apply  text-danger-100 bg-danger-500 !important;
-  &:hover {
-    @apply bg-danger-600 !important;
-  }
+}
+.btn-danger:hover {
+  @apply bg-danger-600 !important;
 }
 .btn-warning {
   @apply  text-warning-100 bg-warning-500 !important;
-  &:hover {
-    @apply bg-warning-600 !important;
-  }
+}
+.btn-warning:hover {
+  @apply bg-warning-600 !important;
 }
 .btn-info {
   @apply  text-info-100 bg-info-500 !important;
-  &:hover {
-    @apply bg-info-600 !important;
-  }
+}
+.btn-info:hover {
+  @apply bg-info-600 !important;
 }
 .btn-link {
   @apply text-blue-500 underline !important;
 }
 .btn-outline-primary {
   @apply border border-primary-500 text-primary-500; 
-  &:hover {
-    @apply bg-primary-500 text-primary-100 !important;
-  }
+}
+.btn-outline-primary:hover {
+  @apply bg-primary-500 text-primary-100 !important;
 }
 .btn-outline-secondary {
   @apply border border-secondary-500 text-secondary-500; 
-  &:hover {
-    @apply bg-secondary-500 text-secondary-100 !important;
-  }
+}
+.btn-outline-secondary:hover {
+  @apply bg-secondary-500 text-secondary-100 !important;
 }
 .btn-outline-success {
   @apply border border-success-500 text-success-500; 
-  &:hover {
-    @apply bg-success-500 text-success-100 !important;
-  }
+}
+.btn-outline-success:hover {
+  @apply bg-success-500 text-success-100 !important;
 }
 .btn-outline-danger {
   @apply border border-danger-500 text-danger-500; 
-  &:hover {
-    @apply bg-danger-500 text-danger-100 !important;
-  }
+}
+.btn-outline-danger:hover {
+  @apply bg-danger-500 text-danger-100 !important;
 }
 .btn-outline-warning {
   @apply border border-warning-500 text-warning-500; 
-  &:hover {
-    @apply bg-warning-500 text-warning-100 !important;
-  }
+}
+.btn-outline-warning:hover {
+  @apply bg-warning-500 text-warning-100 !important;
 }
 .btn-outline-info {
   @apply border border-info-500 text-info-500; 
-  &:hover {
-    @apply bg-info-500 text-info-100 !important;
-  }
+}
+.btn-outline-info:hover {
+  @apply bg-info-500 text-info-100 !important;
 }
 .btn-lg {
   @apply text-lg;

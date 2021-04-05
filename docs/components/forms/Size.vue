@@ -6,5 +6,5 @@
   </div>
 </template>
 <style scoped>
-@import '../../../src/components/_forms.scss';
+@import '../../../src/components/_forms.css';
 </style>

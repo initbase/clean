@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
-  darkMode: false,
+  darkMode: true,
   theme: {
     extend: {
       colors: {

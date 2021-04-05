@@ -13,17 +13,22 @@ Component classes are following Bootstrap V5.0+ standard.
 
 You can simply copy and paste our ready-to-use component classes CSS from this [`dist/` directory](https://github.com/initbase/clean/tree/main/dist). 
 
-### Browser
+### TailwindCSS CDN
 
-Import styles to your HTML like you usually do.
+By using Tailwind CDN version, you will not be able to use `@apply` there and you cannot _extends_ Tailwind themes, therefore you will use default color configuration from Clean UI.
 
 ```html
-<link rel="stylesheet" href="dist/themes.css">
+<link
+  href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+  rel="stylesheet"
+/>
+<link
+  href="https://unpkg.com/initbase-clean-ui@1.1.0/dist/theme.plain.css"
+  rel="stylesheet"
+/>
 ```
-or
-```html
-<link rel="stylesheet" href="dist/themes.scss">
-```
+
+See [CDN example](/static-cdn)
 
 ## Tailwind Configuration
 
@@ -48,7 +53,7 @@ If you don't include `100`, `500`, and `600` color options, an error will be occ
 
 <br />
 
-Alternatively you can use `dist/themes.css` and Clean UI default Tailwind config will be applied so you can't change the colors `primary`, `secondary`, `success`, etc.
+Alternatively you can use `dist/theme.plain.css` and Clean UI default Tailwind config will be applied so you can't change the colors `primary`, `secondary`, `success`, etc.
 
 <br />
 

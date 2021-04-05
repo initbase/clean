@@ -9,3 +9,4 @@ coverage
 docs/dist
 sw.*
 .env
+.cache

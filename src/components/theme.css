@@ -1,6 +1,6 @@
-@import './_alert';
-@import './_badge';
-@import './_button';
-@import './_card';
-@import './_forms';
-@import './_select';
+@import './_alert.css';
+@import './_badge.css';
+@import './_button.css';
+@import './_card.css';
+@import './_forms.css';
+@import './_select.css';

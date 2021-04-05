@@ -4,9 +4,6 @@
 
 .btn-primary {
   @apply  text-primary-100 bg-primary-500 !important;
-  &:hover {
-    @apply bg-primary-600 !important;
-  }
 }
 .btn-primary:hover {
   @apply bg-primary-600 !important;

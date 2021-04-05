@@ -37,6 +37,15 @@ If you are going to use class like `btn-primary`, `btn-success`, `alert-primary`
 If you don't include `100`, `500`, and `600` color options, an error will be occured.
 </alert>
 
+
+- `100`: mostly for text color (lighter color)
+- `500`: the color
+- `600`: hover color
+
+<br />
+
+---
+
 <br />
 
 Alternatively you can use `dist/themes.css` and Clean UI default Tailwind config will be applied so you can't change the colors `primary`, `secondary`, `success`, etc.

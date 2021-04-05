@@ -2,7 +2,16 @@
 module.exports = {
   plugins: [
     'cssnano',
-    require('tailwindcss'),
-    require('autoprefixer')
+    // require('tailwindcss'),
+    // require('autoprefixer')
+  ],
+  preset: [
+    'default',
+    {
+      calc: false,
+      discardComments: {
+        removeAll: true
+      }
+    }
   ]
 };

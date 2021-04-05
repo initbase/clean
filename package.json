@@ -22,27 +22,19 @@
   ],
   "scripts": {
     "docs:generate": "cd docs && yarn && yarn generate",
-    "bundle": "npx bundle-scss -m \"./src/**/theme.scss\" -d \"./dist/themes.scss\"",
-    "scss": "node-sass \"./src\" -o \"./dist\"",
-    "tailwind:build": "npx tailwind build ./dist/themes.scss -o ./dist/themes.css",
+    "bundle": "npx parcel build src/components/theme.css --out-dir dist/",
+    "tailwind:build": "npx tailwind build ./dist/theme.css -o ./dist/theme.plain.css",
     "postbuild": "yarn bundle && yarn tailwind:build"
   },
   "devDependencies": {
-    "bundle-scss": "^1.5.0"
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "parcel-bundler": "^1.12.5",
+    "postcss-modules": "^4.0.0"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.0",
-    "autoprefixer": "^10.2.5",
-    "css-loader": "^5.2.0",
     "cssnano": "^4.1.10",
-    "node-sass": "^5.0.0",
-    "postcss": "^8.2.9",
-    "postcss-loader": "^5.2.0",
-    "sass-loader": "^11.0.1",
-    "style-loader": "^2.0.0",
-    "tailwindcss": "^2.0.4",
-    "webpack": "^5.30.0",
-    "webpack-cli": "^4.6.0"
+    "tailwindcss": "^2.0.4"
   },
   "directories": {
     "doc": "docs"

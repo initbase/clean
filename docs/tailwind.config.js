@@ -68,6 +68,9 @@ module.exports = {
         },
         'code': {
           backgroundColor: '#EFF6FF'
+        },
+        'a': {
+          color: '#3B82F6'
         }
       })
     }),

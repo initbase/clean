@@ -8,14 +8,22 @@ category: Guide
 No more configuration needed just follow [__Tailwind installation guides__](https://tailwindcss.com/docs/installation#integration-guides). Clean UI is built on top of TailwiindCSS.
 
 <alert type="warning">
-We are still using TailwindCSS V1.
+We are still using TailwindCSS V1. 
 </alert>
+
+[Read here](https://tailwindcss.com/docs/upgrading-to-v2#update-renamed-utility-classes) about Tailwind V1 and V2 update.
+
+<br />
 
 Component classes are following Bootstrap V5.0+ standard.
 
 ## Setup
 
-You can simply copy and paste our ready-to-use component classes CSS from this [`dist/` directory](https://github.com/initbase/clean/tree/main/dist). 
+You can simply copy and paste our ready-to-use component classes CSS from this [`dist/` directory](https://github.com/initbase/clean/tree/main/dist).
+
+<br />
+<Installation></Installation>
+<br />
 
 ### TailwindCSS CDN
 
@@ -70,7 +78,57 @@ Then you can use Tailwind classes and Clean UI classes like usually you do.
 __Note:__ If you make changes in `tailwind.config.js` in `theme.extend.colors`, you must restart your Vue dev server (ctrl + c) in order to apply changes to Clean UI component classes.
 
 
-## Tailwind Configuration
+### React CRA
+
+Follow Tailwind CRA installation [here](https://tailwindcss.com/docs/guides/create-react-app).
+
+<br />
+
+Then add Clean UI css to `index.js`.
+
+```javascript
+// src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import './index.css';
+import 'initbase-clean-ui/dist/theme.css'
+
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+```
+
+### Next.js
+
+Follow Tailwind Next.js installation [here](https://tailwindcss.com/docs/guides/nextjs).
+
+<br />
+
+Then you can something like this.
+
+```javascript
+// pages/_app.js
+
+import '../styles/globals.css'
+import 'tailwindcss/tailwind.css'
+import 'initbase-clean-ui/dist/theme.css'
+
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+
+export default MyApp
+```
+
+## Tailwind Configuration (required)
 
 Clean UI using configuration as follows.
 

@@ -161,6 +161,7 @@ __Clean UI default config__
 // tailwind.config.js
 
 var configuration = {
+  /// . . .
   theme: {
     extend: {
       colors: {
@@ -196,10 +197,7 @@ var configuration = {
         }
       }
     },
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
+    /// . . .
   },
 }
 ```

@@ -61,7 +61,14 @@ module.exports = {
           fontSize: theme('fontSize.lg'),
           paddingBottom: '1rem',
           paddingTop: '1rem',
+          fontWeight: 'bold'
         },
+        'pre code': {
+          backgroundColor: 'transparent'
+        },
+        'code': {
+          backgroundColor: '#EFF6FF'
+        }
       })
     }),
     plugin(function ({ addVariant, prefix, e }) {

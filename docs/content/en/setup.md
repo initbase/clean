@@ -7,6 +7,10 @@ category: Guide
 
 No more configuration needed just follow [__Tailwind installation guides__](https://tailwindcss.com/docs/installation#integration-guides). Clean UI is built on top of TailwiindCSS.
 
+<alert type="warning">
+We are still using TailwindCSS V1.
+</alert>
+
 Component classes are following Bootstrap V5.0+ standard.
 
 ## Setup
@@ -29,6 +33,42 @@ By using Tailwind CDN version, you will not be able to use `@apply` there and yo
 ```
 
 See [CDN example](/static-cdn)
+
+### VueJS 2.x/3.x
+
+For usage with Vue, you can simply import Clean UI in single component or in `main.js`.
+
+<br />
+
+__Global config__
+
+```css
+/* ./assets/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+```javascript
+// main.js
+
+import Vue from 'vue'
+import App from './App.vue'
+
+import './assets/index.css';
+import 'initbase-clean-ui/dist/theme.css'
+
+. . . 
+
+```
+
+Then you can use Tailwind classes and Clean UI classes like usually you do.
+
+<br />
+
+__Note:__ If you make changes in `tailwind.config.js` in `theme.extend.colors`, you must restart your Vue dev server (ctrl + c) in order to apply changes to Clean UI component classes.
+
 
 ## Tailwind Configuration
 

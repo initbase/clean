@@ -35,7 +35,7 @@ By using Tailwind CDN version, you will not be able to use `@apply` there and yo
   rel="stylesheet"
 />
 <link
-  href="https://unpkg.com/initbase-clean-ui@1.1.0/dist/theme.plain.css"
+  href="https://unpkg.com/initbase-clean-ui@latest/dist/theme.plain.css"
   rel="stylesheet"
 />
 ```

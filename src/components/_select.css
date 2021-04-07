@@ -5,3 +5,12 @@
   background-size: 16px 12px;
   appearance: none;
 }
+.form-select-lg {
+  @apply text-lg py-2 pl-3;
+}
+.form-select-sm {
+  @apply text-sm py-1 pl-2;
+}
+.form-select:disabled {
+  background-color: #e9ecef;
+}

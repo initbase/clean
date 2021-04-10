@@ -28,6 +28,42 @@ Basic example below is using transparent background. You can modify it using Tai
 </div>
 ```
 
+#### Variant
+
+You may want some variant in your card like the size of `border-radius`. You can override it using `style="border-radius: . . ."` or create new class with `!important` tag.
+
+Clean UI provide some rounded variant to override card class `border-radius`.
+
+<br />
+
+<card-basic variant="true"></card-basic>
+
+```html
+<div class="card card-rounded-none mb-5">
+  <div class="card-body">
+    Rounded card with some variant
+  </div>
+</div>
+<div class="card card-rounded-lg mb-5">
+  <div class="card-body">
+    Rounded card with some variant
+  </div>
+</div>
+<div class="card card-rounded-2xl mb-5">
+  <div class="card-body">
+    Rounded card with some variant
+  </div>
+</div>
+```
+
+__Override from new class__
+
+```css
+.some-class-name {
+  @apply rounded-full !important;
+}
+```
+
 ### Image
 
 <card-images></card-images>

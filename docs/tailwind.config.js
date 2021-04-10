@@ -74,6 +74,11 @@ module.exports = {
         },
         'li a': {
           color: '#6B7280'
+        },
+        h4: {
+          fontWeight: 'bold',
+          marginBottom: '1rem',
+          paddingBottom: '1rem'
         }
       })
     }),

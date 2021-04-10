@@ -53,7 +53,7 @@ module.exports = {
         'h2': { 
           fontSize: theme('fontSize.2xl'),
           paddingBottom: '1rem',
-          borderBottom: '1px solid gray',
+          borderBottom: '1px solid #D1D5DB',
           marginBottom: '1rem',
           paddingTop: '1rem',
         },
@@ -71,6 +71,14 @@ module.exports = {
         },
         'a': {
           color: '#3B82F6'
+        },
+        'li a': {
+          color: '#6B7280'
+        },
+        h4: {
+          fontWeight: 'bold',
+          marginBottom: '1rem',
+          paddingBottom: '1rem'
         }
       })
     }),

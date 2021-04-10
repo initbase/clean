@@ -1,6 +1,9 @@
 .card {
-  @apply relative flex flex-col min-w-0 rounded break-words border bg-transparent border border-gray-300;
+  @apply relative flex flex-col min-w-0 break-words border border border-gray-300 rounded;
 }
+.card-rounded-none { @apply rounded-none !important}
+.card-rounded-lg { @apply rounded-lg !important}
+.card-rounded-2xl { @apply rounded-2xl !important}
 .card-body {
   @apply flex-auto p-6;
 }

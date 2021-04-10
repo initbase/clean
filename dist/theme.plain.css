@@ -159,6 +159,14 @@
   vertical-align:middle
 }
 
+.btn:focus{
+  --tw-border-opacity:1;
+  border-color:rgba(107, 114, 128, var(--tw-border-opacity));
+  border-width:2px;
+  outline:2px solid transparent;
+  outline-offset:2px
+}
+
 .btn-primary{
   --tw-bg-opacity:1 !important;
   background-color:rgba(59, 130, 246, var(--tw-bg-opacity)) !important;
@@ -338,7 +346,6 @@
 }
 
 .card{
-  background-color:transparent;
   --tw-border-opacity:1;
   border-color:rgba(209, 213, 219, var(--tw-border-opacity));
   border-radius:0.25rem;
@@ -349,6 +356,18 @@
   min-width:0px;
   position:relative;
   overflow-wrap:break-word
+}
+
+.card-rounded-none{
+  border-radius:0px !important
+}
+
+.card-rounded-lg{
+  border-radius:0.5rem !important
+}
+
+.card-rounded-2xl{
+  border-radius:1rem !important
 }
 
 .card-body{
@@ -596,5 +615,45 @@ blockquote{
 
 .form-check-input:checked[type=radio]{
   background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='2' fill='%23fff'/%3E%3C/svg%3E")
+}
+
+.bottom-full{
+  bottom:100%
+}
+
+.top-full{
+  top:100%
+}
+
+.tooltip{
+  --tw-bg-opacity:1;
+  background-color:rgba(55, 65, 81, var(--tw-bg-opacity));
+  border-radius:0.25rem;
+  font-size:0.75rem;
+  line-height:1rem;
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  right:0px;
+  bottom:100%;
+  --tw-text-opacity:1;
+  color:rgba(255, 255, 255, var(--tw-text-opacity));
+  bottom:100%
+}
+
+.arrow{
+  height:0.5rem !important;
+  position:absolute !important;
+  left:0px !important;
+  top:100% !important;
+  --tw-text-opacity:1 !important;
+  color:rgba(55, 65, 81, var(--tw-text-opacity)) !important;
+  width:100% !important;
+  top:100% !important
+}
+
+.tooltip-element:hover+.tooltip{
+  display:block
 }
 /*# sourceMappingURL=theme.plain.css.map */

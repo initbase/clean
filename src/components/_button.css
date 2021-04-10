@@ -1,7 +1,9 @@
 .btn {
   @apply inline-block align-middle text-center select-none font-normal py-2 px-4 rounded text-base leading-normal no-underline;
 }
-
+.btn:focus {
+  @apply border-2 border-gray-500 outline-none;
+}
 .btn-primary {
   @apply  text-primary-100 bg-primary-500 !important;
 }

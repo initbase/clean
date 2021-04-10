@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.10.1",
+    "@popperjs/core": "^2.9.2",
     "@tailwindcss/typography": "^0.4.0",
     "nuxt": "^2.15.2"
   },

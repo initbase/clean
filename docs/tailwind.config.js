@@ -71,6 +71,9 @@ module.exports = {
         },
         'a': {
           color: '#3B82F6'
+        },
+        'li a': {
+          color: '#6B7280'
         }
       })
     }),

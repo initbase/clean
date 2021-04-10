@@ -53,7 +53,7 @@ module.exports = {
         'h2': { 
           fontSize: theme('fontSize.2xl'),
           paddingBottom: '1rem',
-          borderBottom: '1px solid gray',
+          borderBottom: '1px solid #D1D5DB',
           marginBottom: '1rem',
           paddingTop: '1rem',
         },

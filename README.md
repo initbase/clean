@@ -30,7 +30,6 @@ Otherwise are just unused directories / files.
 - [x] Checks and radios
 - [x] Forms
 - [ ] Footer
-- [ ] Header
 - [ ] Layout
 - [ ] Modal
 - [ ] Navbar

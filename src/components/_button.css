@@ -86,3 +86,7 @@
 .btn-sm {
   @apply text-xs;
 }
+.btn.disabled {
+  @apply pointer-events-none;
+  opacity: .65;
+}

@@ -23,4 +23,18 @@ Otherwise are just unused directories / files.
 
 ## Roadmap
 
+- [x] Alert
+- [x] Badges
+- [x] Button
 - [x] Card
+- [x] Checks and radios
+- [x] Forms
+- [ ] Footer
+- [ ] Header
+- [ ] Layout
+- [ ] Modal
+- [ ] Navbar
+- [x] Select
+- [ ] Sidebar
+- [ ] Tabbar
+- [x] Tooltips

@@ -11,7 +11,7 @@
 }
 
 .alert-secondary, .alert-secondary .alert-link {
-  @apply bg-secondary-500 text-secondary-100;
+  @apply bg-secondary-500 text-secondary-100 !important;
 }
 
 .alert-light .alert-link {

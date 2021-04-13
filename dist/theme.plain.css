@@ -20,10 +20,10 @@
 }
 
 .alert-secondary, .alert-secondary .alert-link{
-  --tw-bg-opacity:1;
-  background-color:rgba(99, 102, 241, var(--tw-bg-opacity));
-  --tw-text-opacity:1;
-  color:rgba(224, 231, 255, var(--tw-text-opacity))
+  --tw-bg-opacity:1 !important;
+  background-color:rgba(99, 102, 241, var(--tw-bg-opacity)) !important;
+  --tw-text-opacity:1 !important;
+  color:rgba(224, 231, 255, var(--tw-text-opacity)) !important
 }
 
 .alert-light .alert-link{
@@ -137,6 +137,48 @@
 
 .rounded-pill{
   border-radius:9999px
+}
+
+.badge-primary{
+  --tw-bg-opacity:1;
+  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));
+  --tw-text-opacity:1;
+  color:rgba(219, 234, 254, var(--tw-text-opacity))
+}
+
+.badge-secondary{
+  --tw-bg-opacity:1;
+  background-color:rgba(99, 102, 241, var(--tw-bg-opacity));
+  --tw-text-opacity:1;
+  color:rgba(224, 231, 255, var(--tw-text-opacity))
+}
+
+.badge-success{
+  --tw-bg-opacity:1;
+  background-color:rgba(16, 185, 129, var(--tw-bg-opacity));
+  --tw-text-opacity:1;
+  color:rgba(209, 250, 229, var(--tw-text-opacity))
+}
+
+.badge-danger{
+  --tw-bg-opacity:1;
+  background-color:rgba(239, 68, 68, var(--tw-bg-opacity));
+  --tw-text-opacity:1;
+  color:rgba(254, 226, 226, var(--tw-text-opacity))
+}
+
+.badge-warning{
+  --tw-bg-opacity:1;
+  background-color:rgba(245, 158, 11, var(--tw-bg-opacity));
+  --tw-text-opacity:1;
+  color:rgba(254, 243, 199, var(--tw-text-opacity))
+}
+
+.badge-info{
+  --tw-bg-opacity:1;
+  background-color:rgba(59, 130, 246, var(--tw-bg-opacity));
+  --tw-text-opacity:1;
+  color:rgba(219, 234, 254, var(--tw-text-opacity))
 }
 
 .btn{

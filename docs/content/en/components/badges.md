@@ -26,12 +26,12 @@ You can modify the background color and text color using Tailwind utility classe
 <badge-bg-color></badge-bg-color>
 
 ```html
-<span class="badge bg-primary-500">Primary</span>
-<span class="badge bg-secondary-500">Secondary</span>
-<span class="badge bg-green-500">Success</span>
-<span class="badge bg-red-500">Danger</span>
-<span class="badge bg-yellow-400 text-gray-800">Warning</span>
-<span class="badge bg-blue-400 text-gray-800">Info</span>
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-secondary">Secondary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
 ```
 
 ### Rounded Pill
@@ -42,10 +42,10 @@ Use the .rounded-pill utility class to make badges more rounded with a larger bo
 <badge-rounded></badge-rounded>
 
 ```html
-<span class="badge rounded-pill bg-primary-500">Primary</span>
-<span class="badge rounded-pill bg-secondary-500">Secondary</span>
-<span class="badge rounded-pill bg-green-500">Success</span>
-<span class="badge rounded-pill bg-red-500">Danger</span>
-<span class="badge rounded-pill bg-yellow-400 text-gray-800">Warning</span>
-<span class="badge rounded-pill bg-blue-400 text-gray-800">Info</span>
+<span class="badge rounded-pill badge-primary">Primary</span>
+<span class="badge rounded-pill badge-secondary">Secondary</span>
+<span class="badge rounded-pill badge-success">Success</span>
+<span class="badge rounded-pill badge-danger">Danger</span>
+<span class="badge rounded-pill badge-warning">Warning</span>
+<span class="badge rounded-pill badge-info">Info</span>
 ```

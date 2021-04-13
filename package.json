@@ -1,6 +1,6 @@
 {
   "name": "initbase-clean-ui",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "An opinionated \"Bootstrap like\" component classes CSS powered by TailwindCSS.",
   "license": "MIT",
   "style": "dist/themes.css",

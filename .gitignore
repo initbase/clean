@@ -10,3 +10,4 @@ docs/dist
 sw.*
 .env
 .cache
+/dist

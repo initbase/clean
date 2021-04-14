@@ -10,10 +10,10 @@
   @apply flex pl-0 list-none;
 }
 .nav-link.active {
-  @apply text-primary-500 font-bold;
+  @apply text-primary-500 font-bold !important;
 }
 .nav-link:hover {
-  @apply bg-gray-300 rounded;
+  @apply rounded;
 }
 .navbar-toggler {
   @apply py-1 px-3 bg-transparent rounded hidden;
@@ -27,7 +27,19 @@
   text-decoration: none;
   white-space: nowrap;
 }
-
+.navbar-light {
+  @apply bg-light-100 text-light-600;
+}
+.navbar-light .nav-link {
+  @apply text-light-600;
+}
+.navbar-light .nav-link:hover {
+  @apply bg-light-500;
+}
+.navbar-dark { @apply bg-dark-500 text-dark-100;}
+.navbar-dark .nav-link {@apply text-dark-100;}
+.navbar-dark .nav-link:hover {@apply bg-dark-600;}
+.navbar-dark .nav-link.active {@apply text-primary-100 font-bold !important;}
 @media screen and (min-width: 760px) {
   .navbar-expand-lg {
     @apply justify-start;

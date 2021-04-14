@@ -34,6 +34,16 @@ module.exports = {
           '100': '#DBEAFE',
           '500': '#3B82F6',
           '600': '#2563EB'
+        },
+        light: {
+          '100': '#F9FAFB',
+          '500': '#E5E7EB',
+          '600': '#6B7280'
+        },
+        dark: {
+          '100': '#F3F4F6',
+          '500': '#374151',
+          '600': '#1F2937'
         }
       }
     },
@@ -79,6 +89,10 @@ module.exports = {
           fontWeight: 'bold',
           marginBottom: '1rem',
           paddingBottom: '1rem'
+        },
+        'p': {
+          marginBottom: '1rem',
+          marginTop: '1rem'
         }
       })
     }),

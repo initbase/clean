@@ -1,0 +1,9 @@
+.dropdown-menu {
+  @apply absolute m-0 hidden py-2 px-0 text-base text-left list-none rounded border;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 40px, 0px);
+  z-index: 1000;
+  min-width: 10rem;
+}
+.dropdown-menu.dropdown-light {@apply bg-light-100 text-light-600 border-light-500}
+.dropdown-menu.dropdown-dark {@apply bg-dark-100 text-dark-600 border-dark-500}

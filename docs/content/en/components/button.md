@@ -60,3 +60,17 @@ In need of a button, but not the hefty background colors they bring? Replace the
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
 <button type="button" class="btn btn-secondary btn-sm">Small button</button>
 ```
+
+### Disabled
+
+Sometimes you may need a button with disabled state which is unclickable for users.
+
+<br />
+
+<button-disabled></button-disabled>
+
+```html
+<button type="button" class="btn btn-primary disabled">Button</button>
+<button type="button" class="btn btn-secondary disabled">Button</button>
+<button type="button" class="btn btn-outline-success disabled">Button</button>
+```

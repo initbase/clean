@@ -1,9 +1,14 @@
 .dropdown-menu {
-  @apply absolute m-0 hidden py-2 px-0 text-base text-left list-none rounded border;
+  @apply absolute m-0 py-1 px-0 text-base text-left list-none rounded border;
   inset: 0px auto auto 0px;
   transform: translate3d(0px, 40px, 0px);
   z-index: 1000;
   min-width: 10rem;
 }
+.dropdown-item {@apply py-1 px-3 block bg-transparent no-underline}
+.dropdown-light .dropdown-item:hover {@apply bg-light-500}
+.dropdown-dark .dropdown-item:hover {@apply bg-dark-600}
 .dropdown-menu.dropdown-light {@apply bg-light-100 text-light-600 border-light-500}
-.dropdown-menu.dropdown-dark {@apply bg-dark-100 text-dark-600 border-dark-500}
+.dropdown-menu.dropdown-dark {@apply bg-dark-500 text-dark-100 border-dark-500}
+.dropdown-dark .dropdown-item {@apply text-dark-100}
+.dropdown-light .dropdown-item {@apply text-light-600}

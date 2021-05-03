@@ -17,6 +17,10 @@ features:
 
 An opinionated "Bootstrap like" component classes CSS powered by TailwindCSS.
 
+<alert type="warning">
+Current status of CleanUI is migrating to CleanUI 2.x which is hopefully more stable version and ready to use for production.
+</alert>
+
 ## Features
 
 <list :items="features"></list>

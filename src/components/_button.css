@@ -1,8 +1,8 @@
 .btn {
-  @apply inline-block align-middle text-center select-none font-normal py-2 px-4 rounded text-base leading-normal no-underline;
+  @apply inline-block align-middle text-center border select-none font-normal py-2 px-4 rounded text-base leading-normal no-underline;
 }
 .btn:focus {
-  @apply border-2 outline-none;
+  @apply border outline-none;
   box-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
 }
 .btn-primary {
@@ -49,7 +49,10 @@
   @apply bg-info-600 !important;
 }
 .btn-link {
-  @apply text-blue-500 underline !important;
+  @apply text-blue-500 underline border-transparent !important;
+}
+.btn-link:focus {
+  @apply border-gray-500 !important;
 }
 .btn-outline-primary {
   @apply border border-primary-500 text-primary-500; 

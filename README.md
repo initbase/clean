@@ -13,7 +13,7 @@
 
 This project (1.x version) is still experimental and is not ready yet for production. A lot of things can be changing along the way. But it totally fine if you want to use it in your side project as I used it in my side project too.
 
-In 2.x, hopefully everything will be stable with built-in javascript function from CleanUI. __The building of 2.x version would probably be started in May 2021__. It's possibly moving to another NPM package for 2.x.
+In 2.x, hopefully everything will be stable with built-in javascript function from CleanUI. __The building of 2.x version would probably be started before the end of 2021__. It's possibly moving to another NPM package for 2.x.
 
 
 ## Contributing Guides

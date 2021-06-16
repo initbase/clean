@@ -1,0 +1,49 @@
+{
+  "name": "initbase-clean-ui",
+  "version": "1.1.5",
+  "description": "An opinionated \"Bootstrap like\" component classes CSS powered by TailwindCSS.",
+  "license": "MIT",
+  "style": "dist/themes.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initbase/clean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/initbase/clean/issues"
+  },
+  "homepage": "https://cleanui.netlify.app/",
+  "private": false,
+  "contributors": [
+    "Burhanuddin Ahmed <burhanahmeed@gmail.com>"
+  ],
+  "files": [
+    "dist/*.css",
+    "dist/*.scss"
+  ],
+  "scripts": {
+    "docs:generate": "cd docs && yarn && yarn generate",
+    "bundle": "npx parcel build src/components/theme.css --out-dir dist/",
+    "tailwind:build": "npx tailwind build ./dist/theme.css -o ./dist/theme.plain.css",
+    "postbuild": "yarn bundle && yarn tailwind:build"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "parcel-bundler": "^1.12.5",
+    "postcss-modules": "^4.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "cssnano": "^4.1.10",
+    "tailwindcss": "^2.0.4"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "Burhanuddin Ahmed <burhanahmeed@gmail.com>",
+  "keywords": [
+    "tailwind",
+    "bootstrap",
+    "UI",
+    "design systems"
+  ]
+}

@@ -1,0 +1,16 @@
+.form-select {
+  @apply block w-full p-1 text-base font-normal leading-6 bg-transparent bg-no-repeat border appearance-none rounded;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  appearance: none;
+}
+.form-select-lg {
+  @apply text-lg py-2 pl-3;
+}
+.form-select-sm {
+  @apply text-sm py-1 pl-2;
+}
+.form-select:disabled {
+  background-color: #e9ecef;
+}

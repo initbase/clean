@@ -1,0 +1,10 @@
+{
+  "title": "CleanUI",
+  "url": "https://cleanui.netlify.app/",
+  "logo": {
+    "light": "/logo.png",
+    "dark": "/dark-logo.png"
+  },
+  "github": "initbase/clean",
+  "twitter": "burhannahm"
+}

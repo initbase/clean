@@ -1,0 +1,26 @@
+.badge {
+  @apply inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded;
+}
+
+.rounded-pill {
+  @apply rounded-full;
+}
+
+.badge-primary {
+  @apply bg-primary-500 text-primary-100;
+}
+.badge-secondary {
+  @apply bg-secondary-500 text-secondary-100;
+}
+.badge-success {
+  @apply bg-success-500 text-success-100;
+}
+.badge-danger {
+  @apply bg-danger-500 text-danger-100;
+}
+.badge-warning {
+  @apply bg-warning-500 text-warning-100;
+}
+.badge-info {
+  @apply bg-info-500 text-info-100;
+}

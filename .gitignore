@@ -1,13 +1,1 @@
 node_modules
-*.iml
-.idea
-*.log*
-.nuxt
-.vscode
-.DS_Store
-coverage
-docs/dist
-sw.*
-.env
-.cache
-dist

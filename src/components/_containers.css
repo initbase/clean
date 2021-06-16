@@ -1,7 +1,0 @@
-.navbar > .container-fluid {
-  @apply flex items-center justify-between;
-  flex-wrap: inherit;
-}
-.container-fluid {
-  @apply w-full px-3;
-}

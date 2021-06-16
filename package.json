@@ -1,49 +1,26 @@
 {
-  "name": "initbase-clean-ui",
-  "version": "1.1.5",
-  "description": "An opinionated \"Bootstrap like\" component classes CSS powered by TailwindCSS.",
-  "license": "MIT",
-  "style": "dist/themes.css",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/initbase/clean.git"
-  },
-  "bugs": {
-    "url": "https://github.com/initbase/clean/issues"
-  },
-  "homepage": "https://cleanui.netlify.app/",
-  "private": false,
-  "contributors": [
-    "Burhanuddin Ahmed <burhanahmeed@gmail.com>"
-  ],
-  "files": [
-    "dist/*.css",
-    "dist/*.scss"
-  ],
+  "name": "proj",
+  "private": true,
   "scripts": {
-    "docs:generate": "cd docs && yarn && yarn generate",
-    "bundle": "npx parcel build src/components/theme.css --out-dir dist/",
-    "tailwind:build": "npx tailwind build ./dist/theme.css -o ./dist/theme.plain.css",
-    "postbuild": "yarn bundle && yarn tailwind:build"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.4",
-    "parcel-bundler": "^1.12.5",
-    "postcss-modules": "^4.0.0"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.4.0",
-    "cssnano": "^4.1.10",
-    "tailwindcss": "^2.0.4"
+    "gridsome": "^0.7.0"
   },
-  "directories": {
-    "doc": "docs"
-  },
-  "author": "Burhanuddin Ahmed <burhanahmeed@gmail.com>",
-  "keywords": [
-    "tailwind",
-    "bootstrap",
-    "UI",
-    "design systems"
-  ]
+  "devDependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-sitemap": "^0.2.3",
+    "@gridsome/remark-prismjs": "^0.3.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.5.0",
+    "fuse.js": "^3.4.6",
+    "gridsome-plugin-tailwindcss": "^2.2.36",
+    "node-sass": "^4.13.1",
+    "prism-themes": "^1.3.0",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "^1.2.0",
+    "vue-feather-icons": "^5.0.0"
+  }
 }
